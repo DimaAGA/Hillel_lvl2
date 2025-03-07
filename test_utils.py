@@ -19,7 +19,7 @@ class TestAddTwoNumbers:
         assert actual_result == expected_result
 
     def test_add_two_strings_fail(self):
-        number1 = "dfgjhdfg"
+        number1 = "dfgjhgfdfg"
         number2 = "ljkdfghkjdfg"
         with pytest.raises(ValueError):
             add_two_numbers(number1, number2)
